@@ -1,0 +1,113 @@
+@import 'https://fonts.googleapis.com/css?family=Comfortaa:400,700|Fredoka+One|Nunito:400,800,900|Poiret+One|Quicksand:400,500,700';
+
+html,
+body {
+  font-family: 'comfortaa', sans-serif;
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Nav bar */
+
+ nav ul {
+  display: inline-block;
+  position: fixed;
+  text-align: right;
+  height: 80px;
+  width: 100%;
+  background-color: #009A91;
+  font-family: "nunito",sans-serif; 
+  font-size: 1.6em; 
+  
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none; 
+  
+}
+nav ul li a:hover {
+  color: #ababab;
+}
+
+
+/* home page */
+#home {
+  background: white;
+  line-height: 1.6;
+  padding-top: 200px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 200px;
+}
+
+#about-me {
+  top: 100;
+  bottom: 100;
+  line-height: 1.6;
+  background: #00716A;
+  min-height: 55vh;
+  padding-top: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+  text-align: left;
+}
+
+#projects {
+  
+}
+
+/*box styles*/
+
+.back-ribbon{
+  width: 100%;
+  opacity: 0.9;
+  position: relative;
+}
+
+.front-ribbon{
+  width: 90%;
+  opacity: 1;
+  position: relative;
+}
+
+.light-teal{
+  height: 200px;
+  background: #009A91;
+  z-index: 1;
+}
+
+.dark-teal{
+  background: #00716A;
+  z-index: 2;
+}
+
+
+/*text styles*/
+h1, .h1 {
+  font-size: 2.5em;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+h2, .h2 {
+  font-size: 2em;
+}
+
+h3, .h3 {
+  font-size: 1.5em;
+}
+
+p, .p {
+  font-size: 1.5em;
+}
