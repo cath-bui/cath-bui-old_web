@@ -17,17 +17,18 @@ body {
   display: inline-block;
   position: fixed;
   text-align: right;
-  height: 80px;
+  height:100px;
   width: 100%;
   background-color: #009A91;
   font-family: "nunito",sans-serif; 
   font-size: 1.6em; 
+  left: 0;
   
 }
 
 nav ul li {
   display: inline-block;
-  margin: 0;
+  margin: 25px;
 }
 
 nav ul li a {
@@ -44,10 +45,10 @@ nav ul li a:hover {
 #home {
   background: white;
   line-height: 1.6;
-  padding-top: 200px;
+  padding-top: 500px;
   padding-left: 40px;
   padding-right: 40px;
-  padding-bottom: 200px;
+  padding-bottom: 500px;
 }
 
 #about-me {
@@ -56,15 +57,49 @@ nav ul li a:hover {
   line-height: 1.6;
   background: #00716A;
   min-height: 55vh;
-  padding-top: 40px;
-  padding-left: 40px;
-  padding-right: 40px;
-  padding-bottom: 40px;
+  padding-top: 200px;
+  padding-bottom: 200px;
   text-align: left;
 }
 
 #projects {
-  
+  top: 100;
+  bottom: 100;
+  line-height: 1.6;
+  min-height: 55vh;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-align: left;
+}
+
+/*boxes*/
+.front-ribbon{
+  padding: 10%;
+  width: 85%;
+  text-align: auto;
+  z-index: 1;
+}
+
+.back-ribbon{
+  width:100%;
+  text-align: auto;
+  z-index: 2;
+}
+
+.project-ribbon{
+  width: 100%;
+  text-align: auto;
+  z-index: 4;
+}
+
+
+/*colours*/
+.dark-teal{
+  color: #00716A;
+}
+
+.light-teal{
+  color: #009A91;
 }
 
 
@@ -85,4 +120,5 @@ h3, .h3 {
 
 p, .p {
   font-size: 1.5em;
+  padding-bottom: 40px;
 }
