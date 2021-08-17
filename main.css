@@ -44,11 +44,9 @@ nav ul li a:hover {
 /* home page */
 #home {
   background: white;
-  line-height: 1.6;
-  padding-top: 500px;
+  line-height: 1.0;
   padding-left: 40px;
   padding-right: 40px;
-  padding-bottom: 500px;
 }
 
 #about-me {
@@ -86,13 +84,6 @@ nav ul li a:hover {
   z-index: 2;
 }
 
-.project-ribbon{
-  width: 100%;
-  text-align: auto;
-  z-index: 4;
-}
-
-
 /*colours*/
 .dark-teal{
   color: #00716A;
@@ -121,4 +112,9 @@ h3, .h3 {
 p, .p {
   font-size: 1.5em;
   padding-bottom: 40px;
+}
+
+table {
+  position: relative;
+  top: 100%
 }
